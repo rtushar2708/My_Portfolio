@@ -7,8 +7,8 @@ export const projects: Project[] = [
     description:
       'A comprehensive, modern URL shortener featuring user accounts, link management, and an analytics dashboard.',
     tags: ['Go', 'PostgreSQL'],
-    githubLink: 'https://github.com/PraveenGongada/Shortly',
-    liveLink: 'https://shortly-go.vercel.app/',
+    githubLink: 'https://github.com/rtushar2708',
+    liveLink: '',
     type: 'Backend',
     thumbnail:
       'https://raw.githubusercontent.com/PraveenGongada/Shortly/refs/heads/main/frontend/docs/images/thumbnail.png',
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description:
       'Elegant TUI tool for triggering GitHub Actions workflows with matrix configurations for mobile app deployments.',
     tags: ['Go', 'Charm.sh'],
-    githubLink: 'https://github.com/PraveenGongada/Catalyst',
+    githubLink: 'https://github.com/rtushar2708',
     liveLink: '',
     type: 'CLI',
     thumbnail:
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     description:
       'A cinema app featuring intuitive browsing and comprehensive movie details with seamless user experience.',
     tags: ['Flutter', 'Dart'],
-    githubLink: 'https://github.com/PraveenGongada/MovieDB',
+    githubLink: 'https://github.com/rtushar2708',
     type: 'App',
     thumbnail:
       'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/thumbnail.png',

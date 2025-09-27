@@ -363,7 +363,7 @@ export default function Projects() {
         {/* View more button */}
         <div className="mt-16 text-center">
           <Button
-            href="https://github.com/PraveenGongada"
+            href="https://github.com/rtushar2708?tab=repositories"
             label="View More Projects"
             icon={<Github size={18} />}
             variant="secondary"

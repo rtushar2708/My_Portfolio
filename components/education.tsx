@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { FaGraduationCap } from "react-icons/fa";
-import SectionHeader from "./section-header";
 import { educationData } from "@/lib/data";
 
 export default function Education() {

@@ -24,18 +24,18 @@ export default function Certificates() {
           </h2>
           <div className="mt-4 h-1 w-20 bg-gradient-to-r from-emerald-400 to-blue-500 mx-auto rounded-full" />
           <p className="mt-6 text-gray-300 max-w-2xl mx-auto">
-            Professional certifications and courses I've completed
+            Professional certifications and courses I&apos;ve completed
           </p>
         </motion.div>
 
         <div className="grid gap-8 mt-12 md:grid-cols-2">
-          {certificates.map((item) => (
+          {certificates.map((item, index) => (
             <motion.div
-              key={item.id}
+              key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.5 }}
+              transition={{ delay: index * 0.2, type: "spring", stiffness: 300, damping: 20 }}
               className="bg-gray-800/40 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-emerald-500/30 transition-all duration-300 shadow-lg"
             >
               <div className="flex items-center mb-4">
