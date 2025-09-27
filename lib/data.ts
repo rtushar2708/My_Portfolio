@@ -1,4 +1,4 @@
-import { FaCertificate, FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa";
+import { FaCertificate, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
 export const experienceData = [
