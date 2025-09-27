@@ -34,7 +34,7 @@ export const portfolioConfig: PortfolioConfig = {
       typingTexts: [
         'Building digital experiences',
         'Solving complex problems',
-        'Creating user-focused apps',
+        'Creating user-focused web apps',
       ],
       description:
         "I'm enthusiastic about discovering new digital technologies and expanding my knowledge of innovative, creative design principles. My curiosity drives me to continuously learn about modern technologies and their potential to create meaningful experiences.",

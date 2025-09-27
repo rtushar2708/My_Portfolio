@@ -2,14 +2,37 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 import { socialLinks } from "@/lib/data";
 import LoadingSpinner from "./loading-spinner";
+import portfolioConfig from "@/lib";
 
 export default function Hero() {
+  const config = portfolioConfig.sections.home;
+
   const [imageLoading, setImageLoading] = useState(true);
+  const [text, setText] = useState('');
+  const [index, setIndex] = useState(0);
+  const [currentPhrase, setCurrentPhrase] = useState(0);
+
+  useEffect(() => {
+    if (index < config.typingTexts[currentPhrase].length) {
+      const timeout = setTimeout(() => {
+        setText(prev => prev + config.typingTexts[currentPhrase][index]);
+        setIndex(index + 1);
+      }, 100);
+      return () => clearTimeout(timeout);
+    } else {
+      const timeout = setTimeout(() => {
+        setIndex(0);
+        setText('');
+        setCurrentPhrase(prev => (prev + 1) % config.typingTexts.length);
+      }, 2000);
+      return () => clearTimeout(timeout);
+    }
+  }, [index, currentPhrase, config.typingTexts]);
 
   const staggerDelay = (delay: number) => ({
     initial: { opacity: 0, y: 20 },
@@ -90,8 +113,9 @@ export default function Hero() {
                   <span className="text-xl sm:text-2xl text-gray-300 flex flex-wrap">
                     <span className="mr-2">I&apos;m passionate about</span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-500">
-                      Building digital experiences
+                      {text}
                     </span>
+                    <span className="animate-blink ml-1 h-6 w-0.5 bg-emerald-400 self-center"></span>
                   </span>
                 </div>
               </motion.div>
@@ -132,7 +156,7 @@ export default function Hero() {
                 iconType="default"
               />
               <Button
-                href="#contact"
+                href="#connect"
                 label="Connect With Me"
                 icon={<ArrowRight size={18} />}
                 variant="outline"

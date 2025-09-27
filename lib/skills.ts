@@ -5,24 +5,19 @@ export const skills: Skill[] = [
     category: 'Frontend',
     technologies: [
       {
-        name: 'Flutter',
-        color: '#02569B',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg',
-      },
-      {
-        name: 'React Native',
+        name: 'React',
         color: '#61DAFB',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
       },
       {
-        name: 'Java',
+        name: 'Next',
         color: '#D23C29',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
       },
       {
-        name: 'Dart',
+        name: 'Redux',
         color: '#02569B',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
       },
       {
         name: 'TypeScript',
@@ -45,11 +40,6 @@ export const skills: Skill[] = [
     category: 'Backend',
     technologies: [
       {
-        name: 'Go',
-        color: '#00ADD8',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg',
-      },
-      {
         name: 'Node.js',
         color: '#339933',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
@@ -60,24 +50,14 @@ export const skills: Skill[] = [
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
       },
       {
-        name: 'Nvim',
+        name: 'Fastify',
         color: '#4E9F3D',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastify/fastify-original.svg',
       },
       {
-        name: 'Kibana',
-        color: '#005571',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kibana/kibana-original.svg',
-      },
-      {
-        name: 'Logstash',
-        color: '#005571',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/logstash/logstash-plain.svg',
-      },
-      {
-        name: 'ElasticSearch',
-        color: '#005571',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg',
+        name: 'Postman',
+        color: '#4E9F3D',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg',
       },
     ],
   },
@@ -85,65 +65,65 @@ export const skills: Skill[] = [
     category: 'Database',
     technologies: [
       {
-        name: 'PostgreSQL',
+        name: 'MongoDB',
         color: '#336791',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
       },
-      {
-        name: 'Redis',
-        color: '#DC382D',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
-      },
+      // {
+      //   name: 'Redis',
+      //   color: '#DC382D',
+      //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
+      // },
       {
         name: 'Firebase',
         color: '#FFCA28',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
       },
       {
-        name: 'Kafka',
+        name: 'MySQL',
         color: '#231F20',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
       },
     ],
   },
   {
-    category: 'DevOps',
+    category: 'Languages',
     technologies: [
       {
-        name: 'Kubernetes',
+        name: 'Java',
         color: '#326CE5',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
       },
       {
-        name: 'Helm',
+        name: 'C++',
         color: '#0F1689',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
       },
       {
-        name: 'Jenkins',
+        name: 'python',
         color: '#D33833',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
       },
-      {
-        name: 'GitHub Actions',
-        color: '#2088FF',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
-      },
-      {
-        name: 'AWS',
-        color: '#FF9900',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
-      },
-      {
-        name: 'Prometheus',
-        color: '#E6522C',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg',
-      },
-      {
-        name: 'Grafana',
-        color: '#F46800',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg',
-      },
+      // {
+      //   name: 'GitHub Actions',
+      //   color: '#2088FF',
+      //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+      // },
+      // {
+      //   name: 'AWS',
+      //   color: '#FF9900',
+      //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+      // },
+      // {
+      //   name: 'Prometheus',
+      //   color: '#E6522C',
+      //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg',
+      // },
+      // {
+      //   name: 'Grafana',
+      //   color: '#F46800',
+      //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg',
+      // },
     ],
   },
 ];

@@ -3,23 +3,24 @@ import { MdMail } from "react-icons/md";
 
 export const experienceData = [
   {
-    title: "Software Developer",
-    company: "BigCircle",
-    location: "Gandhinagar, India",
+    title: "Full Stack Developer Intern",
+    company: "Dehix",
+    location: "Ghaziabad, India",
     description: [
-      "Designed, Developed, and Maintained robust software applications, ensuring high performance and scalability.",
+      "Developed and managed a freelancing platform, handling skill management, bid functionality, and market module integration.",
+      "Worked extensively with Nextjs Fastify, MongoDB, and Firebase to build and optimize applications.",
     ],
-    date: "Oct 2024 - Present",
+    date: "july 2024 - march-2025",
   },
   {
-    title: "Freelancer",
-    company: "Self-Employed",
+    title: "Networking Intern",
+    company: "Cisco Networking Academy",
     location: "Remote",
     description: [
-      "Designed and Developed web applications using modern technologies like Next.js, TypeScript, and Tailwind CSS.",
-      "Configured AWS services, such as EC2, S3, and Amplify, to streamline development and deployment processes.",
+      "Collaborated on the design, automation, and simulation of complex hierarchical network topologies by analyzing router configuration files.",
+      "Developed solutions for validating and optimizing network configurations, identifying flaws such as duplicate IPs, incorrect VLAN labels, and network loops.",
     ],
-    date: "Aug 2023 - Oct 2024",
+    date: "june 2025 - August 2025",
   },
 ] as const;
 
@@ -46,25 +47,6 @@ export const socialLinks = [
   // },
 ] as const;
 
-export const projects = [
-  {
-    title: "Payment Gateway Integration",
-    description: "Integration of multiple payment gateways using Next.js, TypeScript, and Tailwind CSS.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "PayPal", "Razorpay"],
-    github: "https://github.com/rtushar2708",
-    demo: "",
-    icon: "💸",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Responsive portfolio website with modern animations, dark theme, and optimized performance built with Next.js.",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript", "Vercel"],
-    github: "",
-    demo: "",
-    icon: "🌟",
-  },
-] as const;
-
 export const certificates = [
   {
     id: 1,
@@ -77,47 +59,47 @@ export const certificates = [
   },
   {
     id: 2,
-    title: "Node.js Essential Training",
-    institution: "LinkedIn Learning",
-    duration: "Issued: October 2024",
+    title: "Network Technician Career Path",
+    institution: "Cisco",
+    duration: "Issued: August 2025",
     description: "Completed comprehensive training on Node.js, covering core concepts and advanced topics.",
-    link: "",
-    icon: FaLinkedinIn,
+    link: "https://www.credly.com/badges/170886f2-dc6a-4020-aafc-6801e0f6648d/public_url",
+    icon: FaCertificate,
   },
-  {
-    id: 3,
-    title: "Node.js: Microservices",
-    institution: "LinkedIn Learning",
-    duration: "Issued: October 2024",
-    description: "Completed advanced training on building microservices with Node.js and Express.",
-    link: "",
-    icon: FaLinkedinIn,
-  },
-  {
-    id: 4,
-    title: "React.js Essential Training",
-    institution: "LinkedIn Learning",
-    duration: "Issued: October 2024",
-    description: "Completed comprehensive training on React.js, covering core concepts and advanced topics.",
-    link: "",
-    icon: FaLinkedinIn,
-  },
-  {
-    id: 5,
-    title: "Node.js: Security",
-    institution: "LinkedIn Learning",
-    duration: "Issued: September 2024",
-    description: "Completed advanced training on securing Node.js applications and APIs.",
-    link: "",
-    icon: FaLinkedinIn,
-  },
+  // {
+  //   id: 3,
+  //   title: "Node.js: Microservices",
+  //   institution: "LinkedIn Learning",
+  //   duration: "Issued: October 2024",
+  //   description: "Completed advanced training on building microservices with Node.js and Express.",
+  //   link: "",
+  //   icon: FaLinkedinIn,
+  // },
+  // {
+  //   id: 4,
+  //   title: "React.js Essential Training",
+  //   institution: "LinkedIn Learning",
+  //   duration: "Issued: October 2024",
+  //   description: "Completed comprehensive training on React.js, covering core concepts and advanced topics.",
+  //   link: "",
+  //   icon: FaLinkedinIn,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Node.js: Security",
+  //   institution: "LinkedIn Learning",
+  //   duration: "Issued: September 2024",
+  //   description: "Completed advanced training on securing Node.js applications and APIs.",
+  //   link: "",
+  //   icon: FaLinkedinIn,
+  // },
   {
     id: 6,
     title: "DSA WITH JAVA",
     institution: "Apna College",
     duration: "Issued: November 2023",
     description: "Completed comprehensive training on Data Structures and Algorithms using Java.",
-    link: "",
+    link: "https://drive.google.com/file/d/1bwVHO6h4EQicTQI2uKcGUMYkAAUfDXOF/view?usp=sharing",
     icon: FaCertificate,
   },
 ];
