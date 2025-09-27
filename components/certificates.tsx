@@ -7,9 +7,27 @@ import { certificates } from "@/lib/data";
 
 export default function Certificates() {
   return (
-    <section id="certificates" className="py-14">
-      <div className="container px-4 md:px-6">
-        <SectionHeader title="Certificates" description="Professional certifications and courses I've completed" />
+    <section id="certificates" className="py-24 relative">
+      <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-emerald-500/20 to-transparent"></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.5 }}
+        >
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            My{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-500">
+              Certificates
+            </span>
+          </h2>
+          <div className="mt-4 h-1 w-20 bg-gradient-to-r from-emerald-400 to-blue-500 mx-auto rounded-full" />
+          <p className="mt-6 text-gray-300 max-w-2xl mx-auto">
+            Professional certifications and courses I've completed
+          </p>
+        </motion.div>
 
         <div className="grid gap-8 mt-12 md:grid-cols-2">
           {certificates.map((item) => (
@@ -17,8 +35,9 @@ export default function Certificates() {
               key={item.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5 }}
-              className="p-6 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 shadow-sm"
+              className="bg-gray-800/40 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-emerald-500/30 transition-all duration-300 shadow-lg"
             >
               <div className="flex items-center mb-4">
                 <div className="p-2 mr-4 text-white bg-gradient-to-r from-purple-600 to-blue-500 rounded-full">

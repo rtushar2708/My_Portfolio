@@ -1,31 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
-import {
-  FaAws,
-  FaCloud,
-  FaCode,
-  FaDatabase,
-  FaDocker,
-  FaGitAlt,
-  FaJava,
-  FaNodeJs,
-  FaReact,
-} from "react-icons/fa";
-import {
-  SiExpress,
-  SiGraphql,
-  SiJavascript,
-  SiMongodb,
-  SiMysql,
-  SiNextdotjs,
-  SiPostgresql,
-  SiRedux,
-  SiTailwindcss,
-  SiTypescript,
-} from "react-icons/si";
-import SectionHeader from "./section-header";
 import { skills } from "@/lib/skills";
 import Image from "next/image";
 

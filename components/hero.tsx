@@ -62,7 +62,7 @@ export default function Hero() {
           }}
         />
       </div>
-      <div className="container px-4 md:px-6 relative z-10">
+      <div className="container relative z-10">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-12">
           {/* Content */}
           <motion.div

@@ -8,7 +8,7 @@ import { projects } from "@/lib/data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-14 relative overflow-hidden">
+    <section id="projects" className="py-24 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:60px_60px]" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/50 to-black/0" />
@@ -16,11 +16,25 @@ export default function Projects() {
       <div className="container mx-auto px-4 md:px-6 relative">
         <div className="space-y-16">
           {/* Section Header */}
-          <SectionHeader
-            title="Featured Projects"
-            description="Here are some of my recent projects that showcase my technical skills and problem-solving abilities."
-          />
-
+          <motion.div
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
+              Featured{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-500">
+                Projects
+              </span>
+            </h2>
+            <div className="mt-4 h-1 w-20 bg-gradient-to-r from-emerald-400 to-blue-500 mx-auto rounded-full" />
+            <p className="mt-6 text-gray-300 max-w-2xl mx-auto">
+              Here are some of my recent projects that showcase my technical
+              skills and problem-solving abilities.
+            </p>
+          </motion.div>
           {/* Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
@@ -48,7 +62,9 @@ export default function Projects() {
                     >
                       {project.icon}
                     </motion.div>
-                    <h3 className="text-2xl font-semibold tracking-tight text-white/90">{project.title}</h3>
+                    <h3 className="text-2xl font-semibold tracking-tight text-white/90">
+                      {project.title}
+                    </h3>
                   </div>
 
                   {/* Description */}
@@ -76,7 +92,9 @@ export default function Projects() {
                             hover:border-white/20 transition-all duration-300 flex items-center gap-2
                             hover:shadow-lg hover:shadow-violet-500/5 backdrop-blur-xl"
                         >
-                          <span className="text-white/90 font-medium">{tag}</span>
+                          <span className="text-white/90 font-medium">
+                            {tag}
+                          </span>
                         </motion.div>
                       ))}
                     </div>
