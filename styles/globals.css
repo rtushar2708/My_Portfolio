@@ -53,56 +53,6 @@
   animation: none !important;
 }
 
-/* Ensure container widths are contained */
-.container {
-  width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10.5rem;
-  padding-right: 10.5rem;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-    padding-left: 0rem;
-  padding-right: 0rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 0rem;
-  padding-right: 0rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-    padding-left: 0rem;
-  padding-right: 0rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 0rem;
-  padding-right: 0rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-    padding-left: 0rem;
-  padding-right: 0rem;
-  }
-}
-
 @media (max-width: 768px) {
   .reduce-motion {
     transition-duration: 0.1s !important;
