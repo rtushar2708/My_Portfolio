@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import SectionHeader from "./section-header";
 import { certificates } from "@/lib/data";
 
 export default function Certificates() {
@@ -18,7 +17,7 @@ export default function Certificates() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            My{" "}
+            Courses &{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-500">
               Certificates
             </span>

@@ -61,7 +61,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark scroll-smooth overflow-x-hidden">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white overflow-x-hidden w-screen`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-gray-900 via-gray-900 to-gray-800 text-white overflow-x-hidden w-screen`}>
         <ErrorBoundary>
           <NavBar />
           {children}
