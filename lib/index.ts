@@ -20,9 +20,11 @@ export const portfolioConfig: PortfolioConfig = {
     },
     links: [
       { href: 'home', label: 'Home' },
-      { href: 'about', label: 'About' },
-      { href: 'projects', label: 'Projects' },
+      // { href: 'about', label: 'About' },
       { href: 'skills', label: 'Skills' },
+      { href: 'experience', label: 'Experience' },
+      { href: 'education', label: 'Education' },
+      { href: 'projects', label: 'Projects' },
       { href: 'connect', label: 'Connect' },
     ],
   },

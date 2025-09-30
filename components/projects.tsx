@@ -128,12 +128,12 @@ export default function Projects() {
   const getTagColor = (tag: string) => {
     const tagColors: Record<string, string> = {
       React: 'bg-blue-500/20 text-blue-300 border-blue-500/20',
-      'Next.js': 'bg-gray-500/20 text-gray-300 border-gray-500/20',
+      Nextjs: 'bg-gray-500/20 text-gray-300 border-gray-500/20',
       TypeScript: 'bg-blue-600/20 text-blue-300 border-blue-600/20',
       Tailwind: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/20',
-      Flutter: 'bg-blue-400/20 text-blue-300 border-blue-400/20',
-      Go: 'bg-cyan-600/20 text-cyan-300 border-cyan-600/20',
-      PostgreSQL: 'bg-blue-700/20 text-blue-300 border-blue-700/20',
+      Firebase: 'bg-blue-400/20 text-blue-300 border-blue-400/20',
+      Fastify: 'bg-cyan-600/20 text-cyan-300 border-cyan-600/20',
+      MongoDB: 'bg-blue-700/20 text-blue-300 border-blue-700/20',
       Dart: 'bg-sky-500/20 text-sky-300 border-sky-500/20',
       'Charm.sh': 'bg-pink-500/20 text-pink-300 border-pink-500/20',
       default: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20',

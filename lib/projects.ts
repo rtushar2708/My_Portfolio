@@ -5,8 +5,8 @@ export const projects: Project[] = [
     id: 1,
     title: 'AI Mock Interview Platform',
     description:
-      'A comprehensive, modern URL shortener featuring user accounts, link management, and an analytics dashboard.',
-    tags: ['React', 'Nextjs', 'Firebase', 'TailwindCSS', 'GeminiApi', 'VapiAI'],
+      'AI based mock interview platform, where user can create their personalised interview and give the interview.',
+    tags: ['React', 'Nextjs', 'Firebase', 'Tailwind', 'GeminiApi', 'VapiAI'],
     githubLink: 'https://github.com/rtushar2708/ai_mock_interview',
     liveLink: 'https://ai-mock-interview-two-teal.vercel.app/sign-in',
     type: 'Frontend',
@@ -61,21 +61,21 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'AI Mock Interview Platform',
+    title: 'Personal Portfolio',
     description:
-      'A comprehensive, modern URL shortener featuring user accounts, link management, and an analytics dashboard.',
-    tags: ['React', 'Nextjs', 'Firebase', 'TailwindCSS', 'GeminiApi', 'VapiAI'],
-    githubLink: 'https://github.com/rtushar2708/ai_mock_interview',
-    liveLink: 'https://ai-mock-interview-two-teal.vercel.app/sign-in',
+      'My personal protfolio website to showcase my skills, projects, experience and get in touch with me.',
+    tags: ['React', 'Nextjs', 'TailwindCSS', 'TypeScript', 'Vercel', 'Frame-Motion'],
+    githubLink: 'https://github.com/rtushar2708/My_Portfolio',
+    liveLink: 'https://my-portfolio-silk-eta-57.vercel.app/',
     type: 'Frontend',
     thumbnail:
-      'https://raw.githubusercontent.com/rtushar2708/ai_mock_interview/main/docs/images/login.png',
+      'https://raw.githubusercontent.com/rtushar2708/My_Portfolio/main/docs/images/HomePage.png',
     carouselImages: [
-      'https://raw.githubusercontent.com/rtushar2708/ai_mock_interview/main/docs/images/login.png',
-      'https://raw.githubusercontent.com/rtushar2708/ai_mock_interview/main/docs/images/generate%20interview.png',
-      'https://raw.githubusercontent.com/rtushar2708/ai_mock_interview/main/docs/images/feedback.png',
-      'https://raw.githubusercontent.com/rtushar2708/ai_mock_interview/main/docs/images/take%20interview.png',
-      'https://raw.githubusercontent.com/rtushar2708/ai_mock_interview/main/docs/images/Dashboard.png',
+      'https://raw.githubusercontent.com/rtushar2708/My_Portfolio/main/docs/images/experience.png',
+      'https://raw.githubusercontent.com/rtushar2708/My_Portfolio/main/docs/images/projectShowcase.png',
+      'https://raw.githubusercontent.com/rtushar2708/My_Portfolio/main/docs/images/education&ceritficate.png',
+      'https://raw.githubusercontent.com/rtushar2708/My_Portfolio/main/docs/images/TechnicalSkills.png',
+      'https://raw.githubusercontent.com/rtushar2708/My_Portfolio/main/docs/images/HomePage.png',
     ],
     carouselConfig: {
       interval: 2000,
