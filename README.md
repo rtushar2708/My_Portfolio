@@ -20,7 +20,7 @@ A personal portfolio website built with React and Next.js, showcasing my skills,
 
 Here are a few screenshots of the project:
 
-| Home Page | Projects Page | Skills Section | About Section |
+| Home Page | Projects Page | Experience Section | Certificate Section |
 |-----------|--------------|----------------|---------------|
 | ![Home Page](./docs/images/HomePage.png) | ![Projects Page](./docs/images/projectShowcase.png) | ![Skills Section](./docs/images/experience.png) | ![About Section](./docs/images/education&ceritficate.png) |
 
@@ -29,7 +29,7 @@ Here are a few screenshots of the project:
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/rtushar2708/MyPortfolio.git
+  git clone https://github.com/rtushar2708/My_Portfolio.git
   ```
 2. Navigate to the project directory:
   ```bash
